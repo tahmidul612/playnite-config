@@ -1,5 +1,6 @@
 # Other files
 *.exe
+*config.ps1
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,powershell,csharp
