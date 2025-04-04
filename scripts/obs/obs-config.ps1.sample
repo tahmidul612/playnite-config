@@ -1,0 +1,17 @@
+<# 
+    This is a sample configuration file for the OBS recording script.
+    Copy this file to obs-config.ps1 and update the values as needed.
+
+    Variables:
+      $cfgScene               - The default scene name to use in OBS.
+      $cfgObsPath             - The full path to the OBS executable.
+      $cfgObsWorkingDirectory - The working directory where OBS is located.
+      $cfgWebSocket           - The WebSocket token for OBS remote control.
+      $cfgAction              - The default action to perform; e.g., "start" to begin recording or "stop" to end it.
+#>
+
+$cfgScene = ""  # e.g., "Game", "Desktop", or custom scene name
+$cfgObsPath = ""  # full path to obs64.exe
+$cfgObsWorkingDirectory = ""  # obs working directory (directory where the obs64 executable is located)
+$cfgWebSocket = ""  # OBS WebSocket token
+$cfgAction = ""  # default action: "start" or "stop"
